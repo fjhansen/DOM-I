@@ -115,5 +115,24 @@ mainText4.textContent = siteContent['main-content']['product-content'];
 let mainText5 = document.getElementsByTagName('p')[4];
 mainText5.textContent = siteContent['main-content']['vision-content'];
 
+// Contact
+
+let contactHeader = document.getElementsByTagName('h4')[5];
+contactHeader.textContent = siteContent['contact']['contact-h4'];
+
+let contactAddress = document.getElementsByTagName('p')[5];
+contactAddress.textContent = siteContent['contact']['address'];
+
+let contactPhone = document.getElementsByTagName('p')[6];
+contactPhone.textContent = siteContent['contact']['phone'];
+
+let contactEmail = document.getElementsByTagName('p')[7];
+contactEmail.textContent = siteContent['contact']['email'];
+
+
+
+
+
+
 
 
