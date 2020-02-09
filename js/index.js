@@ -41,6 +41,8 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
+
+
 //Updates CTA Image source by ID
 
 let ctaImg = document.getElementById('cta-img');
@@ -49,3 +51,23 @@ ctaImg.src = siteContent["cta"]["img-src"];
 // Updates Middle Image source by ID
 let midImg = document.getElementById('middle-img');
 midImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
+
+// Nav items
+
+let nav1 = document.getElementsByTagName('a')[0];
+nav1.textContent = siteContent['nav']['nav-item-1'];
+
+let nav2 = document.getElementsByTagName('a')[1];
+nav2.textContent = siteContent['nav']['nav-item-2'];
+
+let nav3 = document.getElementsByTagName('a')[2];
+nav3.textContent = siteContent['nav']['nav-item-3'];
+
+let nav4 = document.getElementsByTagName('a')[3];
+nav4.textContent = siteContent['nav']['nav-item-4'];
+
+let nav5 = document.getElementsByTagName('a')[4];
+nav5.textContent = siteContent['nav']['nav-item-5'];
+
+let nav6 = document.getElementsByTagName('a')[5];
+nav6.textContent = siteContent['nav']['nav-item-6'];
