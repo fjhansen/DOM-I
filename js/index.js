@@ -145,7 +145,15 @@ Array.from(navStyle).forEach(a => {
   a.style.fontWeight = "bolder";
 });
 
-// nav append
+// nav prepend
+
+let navPre = document.getElementsByTagName('nav')[0];
+
+navPre.prepend("Great Idea",)
+
+
+navPre.append("2020")
+
 
 
 
