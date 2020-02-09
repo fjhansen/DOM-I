@@ -72,6 +72,8 @@ nav5.textContent = siteContent['nav']['nav-item-5'];
 let nav6 = document.getElementsByTagName('a')[5];
 nav6.textContent = siteContent['nav']['nav-item-6'];
 
+
+
 // CTA
 
 let ctaText = document.getElementsByTagName('h1')[0];
@@ -133,6 +135,17 @@ contactEmail.textContent = siteContent['contact']['email'];
 
 let footerCopy = document.getElementsByTagName('p')[8];
 footerCopy.textContent = siteContent['footer']['copyright']
+
+
+// nav colors
+
+let navStyle = document.getElementsByTagName('a');
+Array.from(navStyle).forEach(a => {
+  a.style.color = "green";
+  a.style.fontWeight = "bolder";
+});
+
+// nav append
 
 
 
