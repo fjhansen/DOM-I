@@ -71,3 +71,49 @@ nav5.textContent = siteContent['nav']['nav-item-5'];
 
 let nav6 = document.getElementsByTagName('a')[5];
 nav6.textContent = siteContent['nav']['nav-item-6'];
+
+// CTA
+
+let ctaText = document.getElementsByTagName('h1')[0];
+ctaText.textContent = siteContent['cta']['h1'];
+
+let ctaButton = document.getElementsByTagName('button')[0];
+ctaButton.textContent = siteContent['cta']['button'];
+
+
+// Main Content Headers
+
+let mainHeader1 = document.getElementsByTagName('h4')[0];
+mainHeader1.textContent = siteContent['main-content']['features-h4']
+
+let mainHeader2 = document.getElementsByTagName('h4')[1];
+mainHeader2.textContent = siteContent['main-content']['about-h4'];
+
+let mainHeader3 = document.getElementsByTagName('h4')[2];
+mainHeader3.textContent = siteContent['main-content']['services-h4'];
+
+let mainHeader4 = document.getElementsByTagName('h4')[3];
+mainHeader4.textContent = siteContent['main-content']['product-h4'];
+
+let mainHeader5 = document.getElementsByTagName('h4')[4];
+mainHeader5.textContent = siteContent['main-content']['vision-h4'];
+
+// Main Content Text Content
+
+let mainText1 = document.getElementsByTagName('p')[0];
+mainText1.textContent = siteContent['main-content']['features-content'];
+
+let mainText2 = document.getElementsByTagName('p')[1];
+mainText2.textContent = siteContent['main-content']['about-content'];
+
+let mainText3 = document.getElementsByTagName('p')[2];
+mainText3.textContent = siteContent['main-content']['services-content'];
+
+let mainText4 = document.getElementsByTagName('p')[3];
+mainText4.textContent = siteContent['main-content']['product-content'];
+
+let mainText5 = document.getElementsByTagName('p')[4];
+mainText5.textContent = siteContent['main-content']['vision-content'];
+
+
+
