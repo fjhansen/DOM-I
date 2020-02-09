@@ -129,8 +129,10 @@ contactPhone.textContent = siteContent['contact']['phone'];
 let contactEmail = document.getElementsByTagName('p')[7];
 contactEmail.textContent = siteContent['contact']['email'];
 
+// Footer
 
-
+let footerCopy = document.getElementsByTagName('p')[8];
+footerCopy.textContent = siteContent['footer']['copyright']
 
 
 
